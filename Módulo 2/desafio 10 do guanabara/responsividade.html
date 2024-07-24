@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site responsivo</title>
+    <style>
+
+        :root{
+            --fundo:#222222;
+        }
+
+        body{
+            background-color:  var(--fundo);
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 10px 10px 10px rgb(59, 59, 59);
+
+            min-width: 320px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        main > h1 {
+            text-align: center;
+            color: darkslategray;
+        }
+
+        img {
+            width: 100%;
+
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <h1>
+            Testando a responsividade
+        </h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam voluptatibus quaerat quasi id quidem aperiam atque maxime. Corporis libero sunt unde ipsam ratione, labore cumque repellendus doloremque, vero, dignissimos quos.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati id numquam ab qui repellat non nulla ipsa voluptatem. Ex dolores a obcaecati ea sequi, expedita nobis magni totam impedit odit!
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae accusamus blanditiis nam harum hic eos natus ducimus consectetur aut minima esse aperiam eaque doloribus molestias, accusantium nihil ullam. Laboriosam, dignissimos!
+        </p>
+        <picture>
+            <source media="(max-width: 600px )" srcset="imagens/irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt="">
+        </picture>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam voluptatibus quaerat quasi id quidem aperiam atque maxime. Corporis libero sunt unde ipsam ratione, labore cumque repellendus doloremque, vero, dignissimos quos.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati id numquam ab qui repellat non nulla ipsa voluptatem. Ex dolores a obcaecati ea sequi, expedita nobis magni totam impedit odit!
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae accusamus blanditiis nam harum hic eos natus ducimus consectetur aut minima esse aperiam eaque doloribus molestias, accusantium nihil ullam. Laboriosam, dignissimos!
+        </p>
+
+    </main>
+</body>
+</html>
